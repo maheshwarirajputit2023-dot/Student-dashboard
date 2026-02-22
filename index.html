@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <title>page Title</title>
+
+        <style>
+            body{
+            background-color: rgb(212, 230, 236);
+            }
+            
+            h1{
+                color: black;
+                text-align: center;
+                text-decoration: underline green 5px;
+                text-transform: lowercase;
+                letter-spacing: 10px;
+            }
+
+            p{
+                text-decoration: dotted;
+                text-transform: uppercase;
+                word-spacing: 10px;
+                line-height: 3;
+                font-family: cursive;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            #one{
+                height: 100px;
+                margin: 50px;
+                margin-left: 75px;
+                
+
+            }
+            .custom-card {
+                height: 120px !important; /* Force it to override Bootstrap */
+                overflow: hidden;         /* Optional: hides overflow if content is bigger */
+                background-color: white;
+                border-left: 5px solid #28a745; /* green accent */
+                color: #333;
+                }
+            .card-header{
+
+                letter-spacing: 5px;
+            }
+            .card-link {
+                text-decoration: none;
+                color: inherit;
+                font-size: 20px;
+                text-align: center;
+                text-decoration:unset skyblue 5px;
+                font-weight: 500;
+                letter-spacing: none;
+                }
+
+        </style>
+        
+    </head>
+
+    <body>
+        <!--  -->
+       <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="form.html">Log-In</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Notes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://drive.google.com/drive/u/0/mobile/folders/1YY67n2kC_RXi80XlqCTLyjD7JX34fmOT?usp=sharing">Qestion Paper</a></li>
+                      <li><a class="dropdown-item" href="https://drive.google.com/drive/u/0/mobile/folders/1YY67n2kC_RXi80XlqCTLyjD7JX34fmOT?usp=sharing">Important Qestions</a></li>
+                      <li><hr class="dropdown-divider">Notes</li>
+                      <li><a class="dropdown-item" href="https:Telegram.com">HandWritten Notes</a></li>
+                      <li><a class="dropdown-item" href="https://www.studymedia.in/circular/join-puneengineers-telegram/">pdf Notes</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Link</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+       </div>
+       <!--  -->
+
+       
+        <!-- <p><span>ipsum dolor,</span>  sit amet consectetur adipisicing elit. Dolor reiciendis vero veniam, nam maxime officiis quisquam laudantium. Et maxime ipsam vitae exercitationem maiores magni natus ducimus, illum earum voluptas excepturi.</p> -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+        <h1>Study Material</h1>
+        <p>Welcome To My Page</p>
+
+        <header>
+
+          <header>
+            <!-- First Row of 4 Cards -->
+            <div class="container my-4">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">🔐 CNS</div>
+                    <div class="card-body">
+                      <a href="cns.html" class="card-link">Computer Network And Security</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">📊 DSBDA</div>
+                    <div class="card-body">
+                      <a href="dsbda.html" class="card-link">Big Data & Analytics</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">🤖 AI</div>
+                    <div class="card-body">
+                      <a href="ai.html" class="card-link">Artificial Intelligence</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">🌐 WAD</div>
+                    <div class="card-body">
+                      <a href="wad.html" class="card-link">Web Application Development</a>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          
+            <!-- Second Row of 4 Cards -->
+            <p>My Back Subject</p>
+            <div class="container my-4">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">🤖 ML</div>
+                    <div class="card-body">
+                      <a href="ml.html" class="card-link">Machine Learning</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">📊 DAA</div>
+                    <div class="card-body">
+                      <a href="daa.html" class="card-link">Design & Analysis of Algorithm</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">💻 OS</div>
+                    <div class="card-body">
+                      <a href="os.html" class="card-link">Operating System</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <div class="card text-bg-secondary custom-card">
+                    <div class="card-header text-center">🧠 HCI</div>
+                    <div class="card-body">
+                      <a href="hci.html" class="card-link">Human Computer Interaction</a>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </header>
+          
+
+        </header>   
+    </body>
+
+</html>
